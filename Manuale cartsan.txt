@@ -1,0 +1,1207 @@
+Manuale
+CARTSAN
+Software gestionale per la medicina del lavoro
+Ver. 1. 6
+Indice
+LOGIN E IMPOSTAZIONE DATI PERSONALI
+1.1. MODIFICA DATI PERSONALI
+GESTIONE AZIENDE
+2.1. GESTIONE ANAGRAFICA
+2.1.1 Inserimento e modifica azienda..............................................................................................................
+2.1.2 Ricerca azienda
+2.1.3 Ricerca rapida
+2.1.4 Eliminazione di un’azienda
+2.1.5 Menù di stampa
+2.2. GESTIONE ANAGRAFICA
+2.3. ARCHIVIAZIONE AZIENDA
+2.4. GESTIONE CHECKLIST
+2.5. GESTIONE ATTIVITÀ
+GESTIONE LAVORATORI
+3.1. INSERIMENTO, MODIFICA E RICERCA
+3.2. ASSEGNAZIONE DEL REPARTO
+3.3. ARCHIVIAZIONE LAVORATORE
+3.4. CANCELLAZIONE
+3.5. SPOSTAMENTO LAVORATORI E SALVATAGGIO DELLA DOCUMENTAZIONE SANITARIA
+3.6. CONTROLLO PERIODICO
+3.7. ASSEGNAZIONE DI UNA O PIÙ MANSIONI
+3.8. COPIA VISITA
+4 ESECUZIONE DELLA VISITA MEDICA
+4.1 RISCHI.....................................................................................................................................................
+4.2 ANAMNESI...............................................................................................................................................
+4.3 ABITUDINI
+4.4 ESAME OBIETTIVO
+4.5 ACCERTAMENTI
+4.5.1 ESECUZIONE DEGLI ACCERTAMENTI
+4.6 CONCLUSIONI
+4.7 ARCHIVIO DOCUMENTALE
+5 SCAMBIO DATI TRA PC DEL MEDICO E QUELLO CENTRALE
+5.1 VISITE ESTERNE
+5.2 TRASMISSIONE DATI
+5.2.1 Importazione dati
+5.2.2 Invio dati
+6 ANALISI E RELAZIONI
+6.1 ELENCO VISITE
+6.2 RELAZIONI AZIENDALI
+6.3 GRAFICI ED ANALISI
+SORVEGLIANZA SANITARIA
+7.1. GESTIONE PROTOCOLLI
+7.1.1 ARCHIVIAZIONE MANSIONE
+7.2. GESTIONE REPARTI
+7.3. GESTIONE SOPRALLUOGHI
+SCADENZARIO
+8.1 SCADENZARIO VISITE
+8.1.1 Elenco delle visite in scadenza
+8.1.2 Programmazione delle visite
+8.2 AGENDA
+Visualizzazione agenda
+Definizione disponibilità medico
+8.3 SCADENZARIO ATTIVITÀ..............................................................................................................................
+BACKUP E RIPRISTINO
+1 0. AMMINISTRAZIONE
+10.1 UTENTI
+10.2 DOCUMENTI
+10.3 ACCERTAMENTI
+10.4 STRUMENTI
+10.5 EMAIL
+10.6 ASPETTO
+10.7 CONFIGURAZIONE VISITA
+10.8 PRESCRIZIONI E LIMITAZIONI
+10.9 PATOLOGIE
+10.10 NOTE
+10.11 CHECKLIST
+10.12 SCADENZARIO
+APPENDICE A – CARICAMENTO AZIENDE DA FOGLIO EXCEL
+APPENDICE B – CARICAMENTO DIPENDENTI DA FOGLIO EXCEL
+1. LOGIN E IMPOSTAZIONE DATI PERSONALI
+All’avvio del programma viene proposta la schermata di login. Qui l’utente può accedere al sistema utilizzando
+le proprie credenziali:
+
+Nell’eventualità che l’utente non ricordi la propria password è possibile eseguire un reset tramite il pulsante
+
+, seguendo la procedura verrà inviata una mail all’indirizzo di posta inserito nella sezione
+amministrazione (10. 1 ) con la nuova password. La procedura di reset password deve avvenire necessariamente
+in presenza di una connessione internet.
+
+1.1. MODIFICA DATI PERSONALI
+Dopo aver effettuato l’accesso, l’utente può modificare la propria password accedendo a questo percorso:
+
+AMMINISTRAZIONE → Utenti → selezione proprio utente → Cambio password
+
+Se l’utente segue il primo percorso, vedrà una maschera come quella della figura seguente dove è possibile
+inserire la nuova password di accesso.
+
+2. GESTIONE AZIENDE
+In questa sezione è possibile gestire le Anagrafiche delle aziende, le Attività che hanno delle scadenze (es:
+incarichi, sopralluoghi, ecc...) e le CheckList ovvero un insieme di operazioni che devono essere completate
+sull’azienda (TODO list).
+
+2.1. GESTIONE ANAGRAFICA
+In questa schermata è possibile gestire l’elenco dei clienti utilizzando il pannello Anagrafica. Ogni medico ha
+visibilità soltanto per le aziende per le quali è stato nominato. Gli altri operatori invece hanno visibilità su tutte
+le aziende.
+
+Di seguito sono descritte le funzioni principali dei tasti presenti in toolbar identificati nell’immagine di cui sopra
+con i numeri rossi da 1 a 4 e di stampa, ricerca rapida e archiviazione (da 5 a 8 )
+
+Inserisce una nuova azienda (2.1.1)
+Elimina l’azienda selezionata nell’elenco (2.1. 4 )
+Modifica l’azienda selezionata nell’elenco (2.1.1)
+Ricerca azienda (2.1.2)
+Menù di stampa (2.1. 5 )
+Apre l’archivio documenti dell’azienda (2.4)
+Sincronizzazione cloud (se disponibile)
+Ricerca rapida aziende (2.1.3)
+9.
+2.1.1 Inserimento e modifica azienda..............................................................................................................
+Dopo aver premuto i pulsanti per l’inserimento o la modifica viene abilitata la schermata contenente tutti i dati
+
+Seleziona il medico associato all’azienda
+Permette di selezionare i medici coordinati (occorre prima salvare l’azienda). I medici inseriti in questa
+sezione avranno visibilità sull’azienda e potranno effettuare e consultare le visite dei dipendenti
+dell’azienda. Ogni medico (anche il principale) potrà modificare solo le sue visite e non quelle degli altri
+medici.
+Riferimento e Stato sono campi generici per il raggruppamento delle aziende utili per le ricerche e i
+filtri. I valori digitati rimangono memorizzati nella tendina che si apre con il tasto del relativo
+campo
+Permette di impostare un logo personalizzato per l’azienda che sostituisce quello standard.
+Salva i dati dell’azienda
+Nota:
+Il flag Archiviata serve per “nascondere” l’azienda qualora non sia più necessario gestirla, l’archiviazione
+permette quindi di disabilitare la gestione delle scadenze per l’azienda.
+
+Nota:
+Per inserire un’azienda è obbligatorio definire almeno il medico incaricato e il valore per Denominazione unità
+locale.
+
+Se interessa utilizzare lo scadenzario dei sopralluoghi e delle nomine, fare riferimento alla sezione Attività
+
+I tasti consentono di invocare il programma di posta predefinito nel vostro sistema (es: Outlook, Mail,
+Thunderbird, ecc...) con l’indirizzo di posta specificato nel relativo campo.
+
+2.1.2 Ricerca azienda
+Ricerca un’azienda nell’elenco aziende
+
+Filtro per riferimento
+Filtro per stato
+Filtro medici dell’azienda
+Cerca
+Nota: Il campo Denominazione azienda può essere valorizzato con una porzione qualsiasi contenuto nella
+denominazione unità locale visualizzata nella tabella di riepilogo delle aziende (es: se l’azienda è denominata
+Azienda Prova , inserendo il valore Pro l’azienda sarà individuata)
+
+Nota: E’ possibile anche eseguire una ricerca per città, CAP e/o provincia valorizzando i relativi campi.
+Valorizzando più di un campo di ricerca, i criteri inseriti vengono valutati tutti assieme.
+
+2.1.3 Ricerca rapida
+Valorizzando questo campo, la tabella di riepilogo delle aziende si modificherà dinamicamente con la lista delle
+aziende che contengono una parte del valore inserito sia nel nome che nel campo indirizzo. Alla fine
+rimarranno solo le aziende che conterranno nella denominazione o nell’indirizzo il valore inserito.
+
+2.1.4 Eliminazione di un’azienda
+Per eliminare completamente un’azienda dall’archivio di CartSan occorre selezionare l’azienda e premere il
+tasto 2, appare una schermata che avvisa che l’operazione è irreversibile (i dati cancellati non possono più
+essere recuperati) e chiede la conferma dell’operazione. Il messaggio che appare è visualizzato nell’immagine
+seguente:
+
+Premendo il tasto “Sì” verrà effettuata la cancellazione definitiva dell’azienda, dei dipendenti, delle mansioni
+associate e delle relative visite.
+
+Nota: Se si volesse eseguire una copia di backup dei dati prima della cancellazione è possibile eseguire
+la procedura di esportazione di un’azienda descritto nel paragrafo Errore. L'origine riferimento non è
+stata trovata.
+2.1.5 Menù di stampa
+In questo menù sono presenti diverse opzioni di stampa:
+
+Le stampe non sono inviate direttamente alla stampante ma viene sempre presentata una finestra di
+anteprima che permette, oltre alla stampa cartacea, il salvataggio in formato pdf, l’invio via mail oppure la
+firma grafometrica se disponibile. Occorre prima selezionare un’azienda e poi scegliere la voce di stampa
+desiderata.
+Lettera di nomina: permette di visualizzare tre diversi moduli di lettera di nomina già precompilati con i
+dati dell’azienda e del medico competente.
+
+Delega custodia: visualizza un modello che designa il medico competente a tenere la documentazione
+sanitaria presso il proprio studio.
+
+Consegna: permette di stampare due documenti, uno documento di avvenuta consegna dei giudizi di
+idoneità al datore di lavoro, l’altro di avvenuta consegna della documentazione sanitaria al datore di
+lavoro.
+
+Cessazione: permette di stampare due lettere, una di cessazione dell’incarico di medico competente e
+l’altra di cessazione e contestuale consegna della documentazione sanitaria al datore di lavoro.
+
+Dati di contatto: permette di stampare un elenco con i dati di contatto delle aziende come riportato nella
+figura seguente
+
+per tutto l’elenco aziende visualizzato oppure per riferimento (campo di filtro presente in “anagrafica
+aziende” (paragrafo 2 .1 campo n. 3).
+
+Riepilogo aziende in Excel: permette di esportare in un foglio Excel la lista di tutte le aziende già con i filtri
+impostati per ogni campo per poter effettuare ricerche e raggruppamenti personalizzati delle aziende
+caricate in Cartsan. Nel foglio è presente anche una sezione con la lista delle aziende e dei medici incaricati.
+
+Questionario ISPESL: stampa il modello ISPESL – HSE del questionario Stress lavoro correlato
+eventualmente da far compilare al lavoratore in sede di visita. Il questionario è già intestato con i dati
+aziendali.
+Copertina azienda: permette di stampare i dati aziendali e del medico competente su un foglio da usare
+come copertina del fascicolo o della busta che conterrà la documentazione sanitaria o altro oppure un
+foglio con i dati aziendali e firma per ricevuta della consegna della documentazione
+
+2.2. GESTIONE ANAGRAFICA
+Questo menù permette le operazioni di inserimento, modifica e cancellazione di un’azienda, già descritte nei
+paragrafi precedenti, e consente inoltre di:
+
+Mostra archiviate: permette di vedere in elenco aziende anche le aziende per le quali è stato spuntato il flag
+“Archiviata”.
+
+Importa azienda: consente di importare l’azienda salvata con la voce “Esporta azienda” oppure di caricare un
+elenco di aziende da un foglio Excel con formato predeterminato (vedi Appendice: caricamento aziende da
+foglio Excel)
+
+Esporta azienda: Permette di salvare tutti i dati di un’azienda, compresi dipendente, protocollo sanitario, visite
+ecc. in formato CartSan per poterla archiviare su un dispositivo di backup.
+
+Crea cartella portale web: se viene utilizzato il portale web di CartSan, che permette l’accesso da parte dei
+datori di lavoro per la visualizzazione dei giudizi e altre info relativi alle scadenze delle visite, crea la cartella di
+interscambio di documenti con il datore di lavoro
+
+Calcola esito stress: apre un foglio Excel contenente le formule per il calcolo dell’esito stress con ISPELS
+(occorre inserire il numero di risposte per ogni domanda e nel foglio “esito” ci sono i calcoli) oppure con
+Karasek
+
+2.3. ARCHIVIAZIONE AZIENDA
+Per archiviare un’azienda occorre selezionare l’azienda di interesse, premendo il tasto e selezionare il flag
+Archiviata, come nell’immagine sottostante, e selezionare il pulsante Salva dati.
+
+Nota:
+Per visualizzare le aziende archiviate nelle liste a video occorre andare sul menù Aziende e selezionare la voce
+Mostra archiviate. Per riattivare l’azienda, ripetere la procedura e rimuovere il flag Archiviata.
+
+2.4. GESTIONE CHECKLIST
+In questa sezione è possibile definire una serie di operazioni da fare e assegnarle alle varie aziende, man mano
+che le operazioni vengono fatte devono essere spuntate, in modo da avere la situazione aggiornata.
+
+Nota:
+Prima di utilizzare la sezione CheckList occorre creare le azioni da inserire in CheckList nella sezione
+Amministrazione :
+
+Per aggiungere un’azione occorre:
+Premere il tasto Aggiungi
+Inserire il nome della CheckList e premere OK
+Apparirà una finestra in cui definire tutte le azioni relative alla checklist
+3.1. Premendo il tasto + si crea l’azione
+Al termine dell’inserimento premere il tasto OK e la CheckList sarà visualizzata nel pannello
+Per assegnare la checklist all’azienda si ritorna in Gestione Aziende pannello CheckList,
+si seleziona l’azienda o le aziende facendo click sul quadretto affianco al nome azienda
+si sceglie la checklist dal menù a tendina
+si preme il tasto assegna a destra
+2.5. GESTIONE ATTIVITÀ
+Questa sezione serve per definire delle attività che hanno delle scadenze su una certa azienda, per esempio
+l’incarico, il sopralluogo, la riunione periodica e altro.
+
+Nota:
+Prima di utilizzare la sezione Attività occorre creare le attività nella sezione Amministrazione :
+
+Qui premendo il tasto Aggiungi è possibile creare le voci da mettere poi in scadenza nel pannello delle Attività
+di Gestione Aziende.
+
+Per aggiungere un’attività quindi spostarsi su Gestione Aziende , pannello Attività, selezionare l’azienda e poi
+
+premere il tasto + in alto, apparirà la seguente finestra
+Occorre quindi selezionare l’attività dal menù a tendina, impostare la Periodicità e la data di ultima esecuzione
+e/o la data di scadenza e premere il tasto Salva.
+
+Le scadenze impostate in questa sezione saranno consultabili nella sezione Scadenzario nel pannello
+Scadenzario attività (vedi capitolo dedicato alla Scadenzario).
+
+3. GESTIONE LAVORATORI
+3.1. INSERIMENTO, MODIFICA E RICERCA
+Selezionando il tasto GESTIONE LAVORATORI viene mostrata la maschera per la gestione delle anagrafiche dei
+lavoratori. La videata è suddivisa in 3 pannelli, rispettivamente dall’alto verso il basso:
+
+A. Tabella delle aziende: vengono mostrate le aziende assegnate al medico, se si è fatto l’accesso come
+medico, oppure tutte le aziende se si è effettuato l’accesso come segreteria
+B. Tabella dei lavoratori: una volta selezionata l’azienda viene mostrata la lista dei lavoratori appartenenti
+ad essa
+C. Dati del lavoratore: una volta selezionata un lavoratore vengono caricati i suoi dati anagrafici e
+aziendali
+Nella barra superiore sono presenti una serie pulsanti che permettono di eseguire varie operazioni
+sull’anagrafica dei lavoratori.
+
+Nella figura seguenti sono numerati:
+
+Inserisce una nuova visita per il lavoratore selezionato
+Mostra l’elenco delle visite per il lavoratore selezionato
+Apre l’ultima visita del lavoratore selezionato
+Inserisce un nuovo lavoratore nell’azienda selezionata
+Modifica i dati del lavoratore selezionato
+Cerca un lavoratore, premendo il tasto appare la seguente finestra
+Dove si può inserire:
+o Il Cognome o solo una sua parte con gli altri campi vuoti, in questo caso viene ricercato il
+lavoratore su tutte le ditte disponibili
+o La Ditta e il Cognome o una sua parte, in questo caso viene ricercato il lavoratore solo
+all’interno della ditta indicata (anche in parte)
+o Il Codice fiscale o solo una sua parte con gli altri campi vuoti, in questo caso viene ricercato il
+lavoratore su tutte le ditte disponibili
+o Tutti e quattro i dati ( Cognome, Nome, Codice fiscale, Ditta ), viene cercato il lavoratore nella
+ditta con quel cognome, nome e codice fiscale.
+Stampa: cliccando il pulsante si apre un menu contestuale che riporta vari moduli stampabili relativi al
+lavoratore selezionato
+Operazioni: cliccando il pulsante si apre una finestra che permette di eseguire varie operazioni su un
+gruppo di anagrafiche appartenenti all’azienda selezionata (es. spostamento, archiviazione, ecc.) vedi
+paragrafo 3.
+Inserimento nuovo controllo periodico: cliccando il pulsante si apre una finestra che permette di
+inserire un controllo periodico per un lavoratore selezionato, vedi paragrafo 3.
+Nota:
+è possibile scrivere le date senza usare le / “barre”, poi saranno inseriti automaticamente dal programma. Ad
+esempio, 12071982 diventa 12/07/1982.
+
+Nota:
+se il proprio computer dispone di un lettore di smart-card, è possibile caricare i dati personali del lavoratore
+utilizzando la sua tessera sanitaria. Basta inserire la tessera nel lettore e premere sul pulsante posto di fianco
+alla casella “cognome”. (Se si è interessati alla funzionalità e non si ha un lettore smart-card, è possibile
+richiedere un lettore compatibile sia Mac che PC scrivendo a supporto@cartsan.it)
+
+Nota:
+è possibile importare massivamente i lavoratori leggendo i dati da un foglio Excel, fare riferimento
+all’appendice B per le informazioni di dettaglio.
+
+3.2. ASSEGNAZIONE DEL REPARTO
+Per assegnare un reparto ad un lavoratore occorre premere sul bottone Dati aziendali , apparirà la finestra
+seguente:
+
+Il reparto va selezionato dal menù a tendina. I reparti visualizzati sono quelli censiti per l’azienda nella sezione
+Sorveglianza sanitaria , nel pannello Gestione reparti
+
+3.3. ARCHIVIAZIONE LAVORATORE
+Per archiviare un lavoratore (per pensionamento, cessazione, maternità o quant’altro) occorre selezionare il
+
+lavoratore, andare in modifica premendo il tasto , si aprirà la finestra seguente
+
+Facendo click su Archiviato/a e impostando la data di archiviazione, a partire da quel momento le scadenze del
+lavoratore non saranno più prese in carico e il lavoratore stesso non apparirà più nelle liste. È possibile anche
+inserire un motivo di archiviazione selezionandolo dalla tendina oppure scrivendolo manualmente. Premendo il
+tasto OK e poi il tasto Salva nella finestra anagrafica la modifica sarà attivata.
+
+Nota:
+Per visualizzare i lavoratori archiviati nelle liste a video occorre andare sul menù Lavoratori e selezionare la
+voce Mostra archiviati. Per riattivare il lavoratore, bisogna rimuovere il tasto Archiviato/a
+
+3.4. CANCELLAZIONE
+Per cancellare un lavoratore (occorre abilitazione di cancellazione elementi da assegnare come utente Admin ) è
+necessario selezionare il lavoratore e poi premere il tasto X in alto nella toolbar.
+
+ATTENZIONE: l’operazione è irreversibile e i lavoratori cancellati (assieme a tutte le visite registrate)
+non saranno recuperabili.
+3.5. SPOSTAMENTO LAVORATORI E SALVATAGGIO DELLA DOCUMENTAZIONE SANITARIA
+Come accennato precedentemente premendo il tasto è possibile eseguire alcune operazioni su
+una o più anagrafiche tra cui lo spostamento da una sede o azienda ad un’altra oppure il salvataggio dell’intera
+documentazione sanitaria.
+
+Per eseguire un’operazione occorre selezionare uno o più lavoratori, facendo click sul relativo quadretto, poi
+selezionare una delle azioni dal menu Operazioni o Stampa.
+
+Le Operazioni sono:
+
+Archivia : permette di archiviare i lavoratori selezionati non mostrandoli più a video (se l’opzione
+Mostra archiviati è disattivata) e non considerando più le loro scadenze
+Salva documentazione sanitaria : permette di salvare in una cartella tutta la documentazione sanitaria
+dei lavoratori selezionati. Per ogni lavoratore viene fatta una cartella con nome e cognome e tutti i file
+che sono contenuti nel suo archivio (cartella gialla affianco al lavoratore nella schermata dei
+dipendenti)
+Sposta : sposta i lavoratori selezionati, eliminandoli dall’azienda attuale e portandoli nella nuova
+comprese le visite effettuate
+Trasferisci solo anagrafica : archivia i lavoratori selezionati dall’azienda attuale e copia nell’azienda
+nuova tutti i dati anagrafici
+Trasferisci con copia ultima visita : archivia i lavoratori selezionati dall’azienda attuale e copia
+nell’azienda nuova tutti i dati anagrafici compresa una copia dell’ultima visita
+Le Stampe sono:
+Stampa buste in formato B5 per la consegna della documentazione alla ditta e al lavoratore
+Lettera di consegna documentazione sanitaria alla ditta e al lavoratore
+Lettera di consegna al corriere di consegna della documentazione: è un foglio Excel che contiene un
+riepilogo delle buste e degli indirizzi di consegna delle buste che contengono la documentazione
+sanitaria e dove è possibile annotare il costo, il peso e il numero della raccomanda.
+3.6. CONTROLLO PERIODICO
+Facendo click sul tasto apparirà la finestra per la programmazione del controllo periodico di un
+lavoratore. Questa funzione da modo di eseguire gli accertamenti preventivamente rispetto alla visita.
+
+Dal menù a tendina in altro a destra è possibile selezionare la motivazione per la quale si esegue il controllo
+(colloquio per assenza < 60gg, esecuzione accertamenti, parere di idoneità gravidanza).
+Per una descrizione più dettagliata sull’inserimento degli esami strumentali vedere il paragrafo 4.1.
+
+3.7. ASSEGNAZIONE DI UNA O PIÙ MANSIONI
+Inserendo l’anagrafica, è possibile selezionare una o più mansioni da assegnare al lavoratore facendo click sul
+
+tasto affianco al campo mansione, se già censite nella sezione Sorveglianza sanitaria. Apparirà la finestra
+di selezione come nell’immagine.
+
+Facendo click sul tasto si crea un protocollo personalizzato per il lavoratore, tale scelta sarà
+visibile in dati aziendali del lavoratore come mansione personalizzata.
+
+La scelta di selezionare una o più mansioni senza la personalizzazione sarà visibile in dati aziendali del
+lavoratore come mansione aziendale.
+
+Per selezionare la mansione fare click sul relativo quadretto (anche più di uno per assegnare più mansioni) e
+poi premere il tasto Inserisci in basso.
+Se si desidera creare una nuova mansione per l’azienda, è sufficiente premere il tasto Nuova mansione.
+Se si vuole visionare la mansione occorre premere sul tasto Vedi dettagli.
+Premendo la lampadina in alto è possibile selezionare le mansioni che sono già assegnate a questo lavoratore.
+
+Per assegnare le mansioni selezionate al lavoratore chiudere la finestra premendo il tasto in alto nella
+finestra.
+
+3.8. COPIA VISITA
+Per copiare la visita di un lavoratore occorre selezionare il lavoratore, andare in elenco visite premendo il tasto
+
+, si aprirà la finestra seguente
+Facendo click sul tasto apparirà una finestra di ricerca, attraverso la quale possiamo selezionare il
+lavoratore sul quale vogliamo copiare questa visita.
+
+Nota:
+Possono usare questa funzionalità solamente gli utenti admin.
+
+4 ESECUZIONE DELLA VISITA MEDICA
+Come descritto nel capitolo precedente, è possibile inserire una nuova visita medica accedendo al percorso
+
+ANAGRAFICA LAVORATORI → selezione azienda → selezione lavoratore → Inserisci nuova visita (tasto della
+barra in alto), comparirà la seguente finestra
+
+Inizialmente il programma chiede conferma all’utente della scelta di caricare automaticamente i rischi e gli
+accertamenti previsti dalla mansione assegnata al lavoratore. Una volta premuto SI (scelta consigliata) o NO,
+l’utente può iniziare la compilazione della visita medica.
+
+Nella parte superiore, evidenziata in rosso nella figura sopra, sono riportati i dati generali della visita:
+
+Lavoratore e azienda di appartenenza
+Tipologia della visita: viene impostata di default a PERIODICA se il lavoratore ha uno storico, ma è
+possibile modificarne il valore, altrimenti viene impostata la visita PREVENTIVA
+Periodicità: viene impostata al valore previsto dalla mansione associata al lavoratore
+Data: impostata di default alla data corrente
+Riferimento: l’anno a cui la visita fa riferimento. Tale valore è usato per il raggruppamento durante la
+creazione delle statistiche e delle relazioni annuali.
+La visita medica si compone di 6 pannelli: rischi, anamnesi, abitudini, esame obiettivo, accertamenti.
+4.1 RISCHI.....................................................................................................................................................
+In questo pannello vengono precaricati tutti i dati per il protocollo sanitario relativo alla mansione assegnata al
+lavoratore. I rischi sono tabellati secondo il modello più recente di allegato 3B e per ciascun rischio selezionato
+è possibile indicare, in fase di definizione protocollo o in fase di visita, alcune note relative ad esso.
+
+4.2 ANAMNESI...............................................................................................................................................
+in questo pannello è possibile inserire i dati relativi alle informazioni anamnestiche del lavoratore; tutti i dati
+inseriti vengono conservati e riproposti nelle periodiche successive
+
+4.3 ABITUDINI
+contiene dati relativi alle abitudini del lavoratore, come ad esempio fumo, assunzione alcolici, alvo, diuresi, ecc
+
+4.4 ESAME OBIETTIVO
+sono riportati i dati relativi alle condizioni generali ed alle valutazioni dei vari apparati
+
+4.5 ACCERTAMENTI
+in questo pannello sono presenti tutti gli accertamenti suddivisi nelle categorie
+laboratorio, tossicologici, strumentali, droghe, alcool, allegati
+
+4.5.1 ESECUZIONE DEGLI ACCERTAMENTI
+Il pannello degli accertamenti, come descritto in precedenza, è diviso per tipologia. In fase di visita, l’utente
+troverà già spuntati gli accertamenti che devono essere eseguiti in base al protocollo configurato (dipende
+dalla mansione scelta):
+
+Premendo il pulsante relativo all’accertamento, viene mostrata una finestra in cui è possibile indicarne l’esito.
+Nell’immagine seguente viene mostrato a titolo di esempio, l’esito per l’accertamento “glicemia”:
+
+Nota:
+quando i valori di un accertamento sono alterati, è consigliabile spuntare la casellina in alto a destra “ I valori
+sono alterati ”. Ciò permette di avere una evidenza, durante le visite successive, degli elementi su cui porre
+attenzione, ma permette anche di estrarre dei dati statistici più accuranti in fase di elaborazione della relazione
+sanitaria.
+
+La finestra degli esiti non è uguale per tutti gli accertamenti. Per gli accertamenti strumentali è possibile
+sfruttare la connessione con alcune categorie di dispositivi pc-based.Per l’audiometria ad esempio, si possono
+collegare tutti gli strumenti della linea Oscilla e quelli della Electronica Medical (software Audioconsole):
+
+dopo aver collegato lo strumento, basta cliccare sul pulsante corrispondente indicato dalla freccia rossa per
+avviare l’esecuzione dell’accertamento. Al termine di quest’ultimo verranno importati i dati relativi alle perdite
+uditive ed il software provvederà alla classificazione dell’esito.
+
+In maniera similare è possibile eseguire la spirometria, l’ecg, il test visivo ed il drug test.
+
+Nota:
+per il test visivo, è possibile compilare anche delle schede relative agli strumenti più utilizzati in commercio:
+Visio Test, Titmus ed Ergovision.
+
+Nota:
+se utilizza lo strumento Essilor VisioSmart, può eseguire l’accertamento premendo il pulsante corrispondente.
+In questo modo Carsan invierà l’anagrafica al dispositivo ed acquisirà l’esito
+
+Nota:
+nella sezione alcool è possibile invece compilare il questionario audit (semplice o clinico)
+La sezione degli allegati è composta da una serie di questionari compilabili, a titolo di esempio si riporta
+l’immagine di quello per la valutazione funzionale degli arti superiori:
+
+Nota:
+nelle varie maschere è spesso presente un pulsante come quello indicato nella freccia rossa. Premendolo, tutti i
+valori vengono impostati alla normalità, in questo modo è possibile risparmiare molto tempo in fase di
+compilazione modificando solo i valori fuori dalla norma.
+
+4.6 CONCLUSIONI
+Nel pannello delle conclusioni è possibile eseguire le operazioni per il completamento della visita medica:
+
+I punti essenziali sono evidenziati in rosso:
+
+1. Giudizio : è possibile selezionare il giudizio dal menu a tendina. Se il giudizio prevede prescrizioni e/o
+limitazioni è possibile procedere in due modi:
+- spuntare le prescrizioni/limitazioni dalla tabella presente sotto il giudizio
+- scriverle come testo libero nel campo di fianco alla tabella ( Note al giudizio )
+2. Data giudizio e Data prossima visita : la prima data viene impostata automaticamente alla data attuale,
+
+mentre quella della prossima visita può essere calcolata premendo il tastino posto alla destra.
+Tale data indica la scadenza dell’idoneità, pertanto, se il medico desidera rivedere il lavoratore prima
+della scadenza prevista da protocollo, può semplicemente specificare in quel campo la data di scadenza
+desiderata;
+3. Completamento visita : dopo aver espresso il giudizio è importante completare la visita premendo il
+tasto posto in basso;
+4. Firma documenti : per chi utilizza la firma con la tavoletta grafometrica, può far firmare i documenti al
+
+lavoratore semplicemente premendo il bottone : verranno visualizzati in sequenza i
+documenti indicati nella sezione Firma grafometrica in Configurazione Visita del pannello
+“ Amministrazione ”.
+5. Patologie : premendo sul pulsante “aggiungi” della sezione patologie appare una finestra dalla quale è
+possibile selezionare da un elenco una o più patologie da associare al lavoratore. Per l’inserimento
+dell’elenco delle patologie vedere paragrafo 10.7.
+I dati inseriti in questa sezione verranno aggiunti al tracciamento delle statistiche nella relazione
+annuale.
+6. Storico visite: premendo sul pulsante “Visualizza storico” appare una finestra dalla quale è possibile
+visualizzare lo storico delle prescrizioni, limitazioni del lavoratore.
+
+Nota:
+se le prescrizioni vengono selezionate dalla tabella posta sotto il giudizio, è sempre possibile inserire una nota
+al suo fianco (casellina mostrata a destra della prescrizione) che comparirà nel giudizio di idoneità.
+
+Nota:
+in tutti i campi di testo libero, premendo con il tasto destro del mouse, compare un menu contestuale con una
+serie di frasi pronte all’utilizzo che permettono di risparmiare tempo in compilazione.
+
+4.7 ARCHIVIO DOCUMENTALE
+Il software associa al database delle visite anche un archivio documentale che l’utente può utilizzare allo scopo
+conservare e organizzare tutti i documenti, allegati e referti relativi alla propria attività.
+
+Per accedere a tale archivio, se abilitato, ci sono 2 modalità:
+
+Dall’interno della visita: basta cliccare sul pulsante posto in basso a sinistra nella schermata della
+visita medica, come evidenziato dalla freccia rossa della figura seguente:
+Dopo aver cliccato sul pulsante viene mostrato l’elenco dei file relativi alla visita medica in
+oggetto. È possibile allegare ulteriori file premendo il pulsate “Carica”.
+l’archivio documentale mostra solo i documenti relativi all’anno e alla visita corrente. Il
+software organizza l’archivio per anni, pertanto per visualizzare il contenuto degli archivi
+relativi agli anni precedenti bisogna accedere al percorso (in alto) Sorveglianza –> Consulta
+archivio accertamenti
+Da Gestione aziende o da Gestione lavoratori premendo sulla cartella gialla a destra dell’azienda o
+del lavoratore , in questo caso vengono visualizzati rispettivamente
+l’albero degli anni di tutti di dati archiviati e all’interno di ogni anno i dati dei lavoratori
+il contenuto dei dati del lavoratore dell’anno corrente, se si vogliono consultare i dati degli
+anni precedenti occorre selezionare l’anno dal menu a discesa indicato dalla freccia rossa:
+5 SCAMBIO DATI TRA PC DEL MEDICO E QUELLO CENTRALE
+Sezione dedicata all’esportazione delle visite locali sul server e viceversa. Questa funzione non è disponibile
+nelle versioni stand-alone (un solo pc assegnato ad un solo medico).
+
+5.1 VISITE ESTERNE
+Nella versione con la funzione Visite esterne il pc del medico deve essere nella stessa rete del pc server
+(principale), questo perché CartSan cerca di stabilire una connessione diretta con il database centrale.
+Premendo il tasto Visite esterne viene mostrata la seguente finestra:
+
+Sincronizza le visite con il server : copia i dati del server sul pc locale in modo che siano disponibili off-
+line
+Sincronizza i documenti con il server : copia i documenti dal server al pc locale
+Esporta le visite effettuate con il pc locale sul server
+Esporta i documenti del pc locale sul server
+non è possibile eseguire una sincronizzazione se ci sono dati da esportare. Se il medico necessita di un
+aggiornamento, deve prima eseguire un’esportazione e solo successivamente può eseguire una
+sincronizzazione.
+5.2 TRASMISSIONE DATI
+Nella versione con la funzione Trasmissione dati i dati vengono passati dal pc principale al pc del medico e
+viceversa attraverso un server di interscambio, per cui è sufficiente che i il pc che trasmette o quello che riceve
+abbia una connessione a internet. Premendo il bottone la finestra che appare facendo login con utente medico
+la seguente:
+
+Sincronizza le visite con il server : copia i dati inviati dalla segreteria al medico che ha fatto login sul pc
+locale in modo che siano disponibili off-line
+Sincronizza i documenti con il server : copia in locale gli eventuali documenti inviati dalla segreteria al pc
+locale
+Esporta le visite effettuate verso la segreteria
+Esporta i documenti del pc locale verso la segreteria
+Entrando invece con utente segreteria la finestra è diversa in quanto consente di dialogare con i singoli medici:
+
+La console è divisa in due sezioni: la prima è denominata Importazione Dati ha lo scopo di recuperare i dati
+inviati dai medici, la seconda è denominata Invio Dati ha lo scopo di inviare i dati ai singoli medici.
+
+5.2.1 Importazione dati
+Premendo sul tasto viene aperta la finestra seguente:
+
+Dove occorre premere il tasto Aggiorna per verificare tutti i dati inviati dai medici e che sono presenti sul
+server di interscambio. Se sono presenti dei dati vengono visualizzate delle righe nella finestra superiore e/o
+
+inferiore, è necessario selezionare una riga alla volta e premere il relativo bottone Importa dati o Importa
+documenti a seconda che la riga sia presente nella finestra superiore o nella finestra di sotto. Al termine
+dell’operazione i dati vengono caricati nel database centrale e consultabili dalla postazione di segreteria o
+qualunque postazione connessa sulla rete.
+
+5.2.2 Invio dati
+Ha lo scopo di inviare i dati ai medici: occorre prima selezionare il nome del medico a cui si vogliono inviare i
+dati dal menu a tendina, quindi selezionare le aziende (consigliamo in ogni caso di selezionare tutte le aziende
+con il tasto a destra della finestra) e poi premere il tasto invia.
+Quando il medico attraverso il bottone Sincronizza della sezione Trasmissione dati caricherà le aziende a lui
+inviate, eventuali aziende presenti precedentemente, ma non inviate dalla segreteria, non saranno più visibili,
+questo non vuol dire che sono perse, ma semplicemente che non fanno parte del pacchetto. Se il medico ha
+necessità di vedere sempre tutte le aziende si consiglia di eseguire la funzione di invio selezionando sempre
+tutte le aziende.
+
+non è possibile eseguire una sincronizzazione se ci sono dati da esportare. Se il medico necessita di un
+aggiornamento inviato dalla segreteria, deve prima eseguire una esportazione e solo successivamente può
+eseguire una sincronizzazione.
+
+Nota:
+I processi di invio e ricezione potrebbero essere influenzati dalla presenza di antivirus o firewall che non
+permettono l’invio o la ricezione di dati, è consigliabile disattivare temporaneamente l’antivirus durante questo
+processo qualora si incontrassero degli inconvenienti.
+
+Nota:
+per evitare disallineamenti, si consiglia di eseguire sempre una sincronizzazione prima di una sessione di visite
+e l’esportazione subito dopo averla completata.
+
+Nota:
+il software è stato concepito in maniera tale che qualsiasi operazione garantisca sempre l’integrità dei dati. Se
+si verificassero degli errori durante le procedure, il software è in grado di ripristinare la situazione precedente.
+
+6 ANALISI E RELAZIONI
+La sezione Analisi e relazioni permette di estrarre tutte le visite e i relativi documenti effettuati in un
+determinato periodo di tempo per le aziende selezionate, generare le relazioni sanitarie, estrarre i dati per
+l’allegato 3B, preparare grafici ed analisi utili per creare presentazioni o documentazioni utilizzando i dati
+memorizzati in CartSan.
+
+Le informazioni che si possono estrarre sono state organizzate in questi tre pannelli:
+
+Elenco visite
+Elenco attività
+Relazioni aziendali
+Grafici e analisi
+6.1 ELENCO VISITE
+Dal pannello elenco visite è possibile estrarre la lista delle visite effettuate in un determinato periodo di tempo
+per una o più aziende, impostando alcuni filtri di ricerca di seguito descritti:
+
+Tipologia visita : permette di selezionare il tipo di visita da visualizzare: periodica, preventiva, ecc...
+Medico : permette di selezionare il medico di cui si vogliono visualizzare le visite
+Stato visite : permette di elencare tutte le visite, solo quelle completate (flag visita completata
+impostata all’interno della visita), quelle non completate
+Altri filtri : apre una finestra come la seguente che permette di impostare ulteriori condizioni di ricerca
+come di seguito visualizzato
+Nelle liste delle Mansioni, Reparto, Sede di Lavoro e Qualifica Professionale vengono visualizzati solo i
+valori presenti nella lista delle aziende selezionate per permettere di eseguire delle scelte mirate su
+possibili candidati da selezionare.
+Quando vengono impostati più criteri di ricerca, vengono visualizzati i dati che soddisfano
+contemporaneamente tutte le condizioni, per cui più filtri si utilizzano più la ricerca ridurrà la lista di visite
+visualizzate.
+
+Una volta impostati i criteri di ricerca, premendo il tasto viene eseguita la ricerca e visualizzata la
+lista delle visite che soddisfano tutti i criteri impostati.
+
+Sui dati visualizzati nella lista è possibile eseguire alcune operazioni tra cui
+
+Visualizza dettaglio visita : permette di entrare nella visita e di vederne i dettagli (se l’utente dispone
+dei diritti di visualizzazione della cartella sanitaria)
+Salva giudizi e Salva visite : permette di salvare rispettivamente tutti i giudizi di idoneità e tutte le
+cartelle sanitarie relative alle visite selezionate nell’elenco con il segno di spunta in prima colonna.
+Possono essere salvati i giudizi e le cartelle sia firmati con la tavoletta grafometrica che non firmati e i
+file vengono copiati dall’archivio interno di CartSan su una cartella a scelta dell’utente
+Giudizi ai lavoratori e Giudizi all’azienda : permette di inviare via mail rispettivamente i giudizi di
+idoneità al lavoratore e i giudizi di idoneità al datore di lavoro. Nel caso di giudizio al lavoratore, ad ogni
+lavoratore per il quale è stato specificato il campo e-mail in anagrafica (Capitolo 3), verrà inviata una
+mail con allegato il giudizio; nel caso di giudizio all’azienda verrà inviata una mail all’indirizzo e-mail
+(comunicazioni all’azienda) specificato in anagrafica azienda (Capitolo 2). Alla e-mail verrà allegato un
+file zip con i giudizi dei lavoratori selezionati e può essere personalizzata con un messaggio.
+Elenco visite : permette di creare dei report di vario tipo relativi alle visite selezionate, i report
+permettono di creare una lista in formato PDF e stampabile dei dati presenti in lista.
+Per inviare i giudizi ai lavoratori o alle aziende occorre impostare i parametri per l’invio delle email nella
+sezione E-Mail di Amministrazione
+
+6.2 RELAZIONI AZIENDALI
+In questa sezione è possibile estrarre i dati presenti in CartSan per redigere in maniera automatica le relazioni
+annuali o l’allegato 3B.
+
+Relazioni aziendali : in questa sezione è possibile creare in formato word (.docx) la relazione annuale
+predefinita, la relazione annuale che comprende ulteriori grafici scelti premendo il bottone , la
+relazione comparativa che permette di mostrare l’andamento dei dati nell’intervallo temporale
+prescelto e il resoconto aziendale che in una pagina riassume il numero di visite, accertamenti ecc...
+eseguiti per le aziende selezionate nel periodo indicato.
+Premendo su Crea documento viene chiesto il nome del file word che verrà creato e la cartella
+Windows di destinazione (es: Documenti o Desktop)
+Esportazione dati : permette di salvare l’allegato 3B in formato Excel e la relazione sanitaria in formato
+Word contemporaneamente
+File Excel : genera il file Excel con i conteggi per l’allegato 3B
+File INAIL : permette di caricare il file scaricato dal portale dell’INAIL con le aziende di competenza di un
+medico in modo che CartSan provveda a generare il file dati con tutti i conteggi dell’allegato 3B. Questo
+file dati andrà poi caricato sul portale INAL. Questa modalità permette di evitare di copiare a mano i
+dati dei conteggi dell’allegato 3B azienda per azienda.
+6.3 GRAFICI ED ANALISI
+La sezione Grafici ed analisi permette di esportare delle immagini con i grafici delle varie statistiche calcolabili
+da CartSan per il periodo di tempo selezionato (1) o per anno o per intervallo temporale. La lista complete delle
+statistiche disponibili è presente nel menu a tendina del campo Tipo analisi. Il campo Tipo esame si abilita
+quando nel campo Tipo analisi è stata scelta una statistica relativa agli esami (es Esami di laboratorio).
+
+Premendo il tasto Vedi analisi (2) vengono generati nella finestra Grafico sottostante i grafici della statistica
+scelta
+Premendo il tasto Salva (3) è possibile decidere il tipo di esportazione da effettuare.
+
+7. SORVEGLIANZA SANITARIA
+In questa sezione è possibile gestire le mansioni aziendali e i relativi protocolli sanitari (sezione 1 ), i reparti
+(sezione 2 ) e i sopralluoghi aziendali (sezione 3 )
+
+7.1. GESTIONE PROTOCOLLI
+Tale sezione ha lo scopo di censire le mansioni e i relativi protocolli aziendali. Per inserire una mansione
+
+occorre selezionare la ditta facendo click sul nome e poi premere il tasto , viene visualizzata la schermata
+seguente:
+
+Qui è possibile inserire in alto il nome della mansione (evitare di inserire caratteri come il trattino “–“ e il punto
+e virgola “;”), la periodicità della visita, i rischi relativi alla mansione, gli esami di laboratorio e strumentali
+previsti dal protocollo sanitario.
+
+Per selezionare l’accertamento è necessario fare click sul relativo “quadretto” sulla sinistra del nome
+dell’esame, poi fare click sull’esame e inserire la periodicità prevista. Di default la periodicità è annuale tranne
+che per il test visivo e la visita oculistica che sono quinquennali.
+
+È possibile inoltre specificare se sono previste delle vaccinazioni premendo sul tasto Vaccinazioni.
+
+Il tasto dà la possibilità di impostare una serie di esami con un solo click e di riportarli
+in cartella con un unico nome che li raggruppa. Tale raggruppamento si definisce nella sezione Amministrazione
+nel pannello Accertamenti.
+
+All’interno del protocollo è possibile anche indicare a livello descrittivo eventuali Adempimenti, Dispositivi di
+Protezione Individuale e Raccomandazioni. Facendo click sui relativi bottoni si apre una finestra di testo dove è
+possibile scrivere liberamente. Facendo click con il tasto destro del mouse nel campo di testo libero ci sono già
+delle frasi precompilate che possono essere di aiuto per una più celere compilazione.
+
+Nota: qualora siano da definire mansioni per le quali sono previste periodicità diverse legate a varie
+condizioni (es: videoterminalista che ha periodicità variabile a seconda dell’età del lavoratore), occorre creare
+varie mansioni (che non potranno avere lo stesso nome) e assegnate di volta in volta al lavoratore in base al
+verificarsi delle condizioni, oppure definirle quando serve e assegnarle poi al lavoratore.
+
+Stampa
+Per stampare un intero protocollo sanitario occorre:
+
+Fare click sull’azienda per la quale si vuole stampare il protocollo
+Premere in alto nella finestra il tasto Stampa protocollo affianco al nome dell’azienda
+Apparirà una finestra che chiede la data da apporre sul documento e un campo note nel quale è
+possibile inserire delle annotazioni che verranno riportate in fondo al documento
+Premendo il tasto OK verrà visualizzata l’anteprima del documento
+Per stampare il protocollo di un’unica mansione occorre:
+Aprire la cartella dell’azienda della mansione da stampare
+Selezionare la mansione con il mouse, in alto verranno riportate azienda e mansione selezionata
+Premere il tasto Stampa protocollo affianco alla mansione indicata in alto
+Apparirà una finestra che chiede la data da apporre sul documento e un campo note nel quale è
+possibile inserire delle annotazioni che verranno riportate in fondo al documento
+Premendo il tasto OK verrà visualizzata l’anteprima del documento
+7.1.1 ARCHIVIAZIONE MANSIONE
+Per archiviare una mansione occorre selezionare la mansione e poi premere il tasto X in alto nella toolbar.
+È possibile visualizzare le mansioni archiviate una volta selezionata l’azienda di interesse, cliccando sul pulsante
+Sorveglianza.
+
+Operazioni
+
+Cliccando il pulsante si apre un menu contestuale che permette di eseguire varie
+operazioni sulla mansione selezionata.
+
+7.2. GESTIONE REPARTI
+In questa sezione è possibile definire i vari reparti aziendali.
+
+Per inserire il nuovo reparto è necessario selezionare l’azienda facendo click sulla cartella azzurra relativa
+
+all’azienda e poi premendo il tasto , apparirà la finestra seguente
+
+Premendo il tasto salva, il reparto sarà memorizzato sotto l’azienda scelta.
+
+7.3. GESTIONE SOPRALLUOGHI
+In questa sezione è possibile compilare il verbale e il certificato di sopralluogo aziendale.
+
+Una volta selezionata l’azienda di interesse, premendo il tasto appare la schermata che permette di
+compilare i campi del verbale di sopralluogo. Dopo la compilazione è possibile:
+
+Stampare il certificato di avvenuto sopralluogo
+Salvare i dati per stampare il verbale e la futura consultazione
+Una volta salvato il verbale questo appare nella lista in basso della finestra dove sono elencate le aziende ed è
+possibile modificarlo, stamparlo o eliminarlo (vedi fig. successiva)
+Nota:
+Il verbale di sopralluogo (come qualunque altra anteprima) può essere firmato con la tavoletta grafometrica (se
+installato il software FirmaCerta) premendo sul tasto
+
+8. SCADENZARIO
+La sezione scadenzario permette di:
+
+Vedere le scadenze di visite e accertamenti
+Vedere le scadenze delle nomine dei medici
+Vedere le scadenze dei sopralluoghi
+Programmare le visite e/o gli accertamenti in scadenza
+Visualizzare l’agenda dei singoli medici
+Definire le disponibilità dei singoli medici per programmare le visite e accertamenti
+Il pannello è diviso in 4 parti, Agenda, Scadenzario visite, Scadenzario nomine, Scadenzario sopralluoghi , dove
+sono gestite le varie funzionalità, la parte di default è quella relativa alle scadenze delle visite e degli
+accertamenti (vedi figura seguente)
+
+8.1 SCADENZARIO VISITE
+Lo scadenzario delle visite permette di visualizzare per azienda (o per tutte le aziende) e in un certo periodo di
+tempo, che può essere espresso in mesi a partire dal mese corrente o come intervallo di date, la lista delle
+aziende che hanno delle scadenze di visite o di accertamenti.
+In particolare selezionando una o più aziende (anche tutte) dall’elenco della finestra 1 e selezionando il numero
+di mesi da visionare a partire dal mese corrente, dopo aver premuto il tasto Esamina nella finestra 2 comparirà
+la lista delle aziende con scadenze e per ognuna di esse il numero delle scadenze.
+
+Più in dettaglio, l’intervallo temporale da esplorare con lo scadenzario è così definibile:
+
+Per Mesi (impostazione di default): indica il numero di mesi, a partire dal mese corrente) in cui
+cercare le scadenze, per esempio se il mese corrente è gennaio con 1 vengono cercate tutte le
+scadenze entro il mese di gennaio stesso (anche se l’interrogazione si fa il 31 gennaio), con 2
+vengono cercare tutte le scadenze del mese di gennaio e di febbraio e così via fino a 12 massimo
+limite impostabile. Con questa selezione vengono sempre prese in considerazione anche le
+scadenze passate.
+Per Intervallo date : è possibile indicare un intervallo temporale specificando data inizio e data fine,
+in questo caso vengono prese in considerazione solo le scadenze che cadono in quell’intervallo,
+eventuali scadenze precedenti alla data di inizio non vengono considerate. Se la data inizio viene
+lasciata in bianco e si specifica solo la data di fine, vengono prese in considerazione tutte le
+scadenze che cadono entro quella data.
+Gli filtri che possono essere impostati permettono di:
+
+cercare solo le visite in scadenza, solo gli accertamenti o entrambe le tipologie, nel caso di
+accertamenti è possibile scegliere anche il tipo di accertamento da cercare tra Drug test,
+Vaccinazione e tutti gli altri.
+Cercare solo le visite scadute, quelle in scadenza o entrambe le tipologie.
+Cercare le scadenze delle aziende assegnata ad un medico in particolare
+Nota:
+I filtri lavorano assieme per cui più filtri si aggiungono più i dati trovati si riducono.
+
+Una volta ottenuti i risultati è possibile visualizzare i dettagli delle scadenze premendo sul tasto (vedi
+figura seguente)
+
+Il cerchio in rosso sotto la colonna Agenda indica che le scadenze per quell’azienda non sono ancora state
+programmate, se il cerchio è verde vuol dire che tutte le scadenze sono state programmate, se giallo che sono
+presenti nel dettaglio azienda ancora alcune visite da programmare.
+
+Premendo il tasto con la lente è possibile visualizzare il dettaglio dei lavoratori per i quali visite e/o
+accertamenti sono in scadenza e quindi effettuare la programmazione della visita o stamparne l’elenco per
+preparare, ad esempio, comunicazioni da inviare al datore per accordarsi sul periodo in cui fare la visita oppure
+per definire di quali strumenti o test si ha bisogno per eseguire la visita in scadenza.
+
+Con il tasto è possibile visualizzare per quel lavoratore la lista degli accertamenti in scadenza.
+
+E’ possibile confermare l’appuntamento in uno dei seguenti modi:
+
+Imposta convocazione avvenuta
+Invia convocazione lavoratori (invia la convocazione e conferma l’appuntamento)
+8.1.1 Elenco delle visite in scadenza
+Per avere un elenco delle visite in scadenza, relativo alla ricerca effettuata, è possibile scegliere una delle
+opzioni del tasto Stampa in alto sopra la finestra 1 dello scadenzario, inoltre è possibile avere un elenco
+dettagliato con tutte le scadenze delle aziende in elenco in formato Excel per effettuare eventuali ulteriori
+ricerche come ad esempio filtrare per reparto, mansione o sede di lavoro.
+
+Scelta una delle stampe visualizzate nel menù, viene presentata l’anteprima. Ogni azienda viene stampata su
+una pagina differente. Tra le altre stampe è possibile creare anche uno schema denominato Schema giornata
+che riporta la lista dei lavoratori con affianco i vari accertamenti con immediata visibilità sugli accertamenti da
+fare, di seguito un esempio:
+
+8.1.2 Programmazione delle visite
+Per definire l’ora, il giorno e il luogo della visita è possibile operare in due modi:
+
+Per singolo lavoratore: affianco al nome di ogni lavoratore c’è il tasto Agenda , premendolo
+si apre la finestra per impostare data, ora e luogo della visita medica.
+Programmazione massiva: se il numero di lavoratori è elevato, è possibile far calcolare
+automaticamente a CartSan la data e l’ora della visita a partire da una data e ora di inizio visita e
+dalla durata prevista per ogni visita. Per utilizzare questa funzionalità, dal menù della finestra
+selezionare Agenda e poi Programma le visite selezionate
+•
+la finestra che apparirà sarà uguale alla precedente con la differenza che il campo Intervallo (durata
+della visita) sarà abilitato.
+Nota:
+Se nella sezione Agenda dello scadenzario si definiscono le disponibilità dei medici (vedi sezione Agenda
+più avanti), al momento della programmazione i giorni “prenotabili” per la visita per quel particolare
+medico saranno colorati in verde.
+Una volta programmate le visite, di fianco ai lavoratori, sotto la colonna Programmata appare la data e l’ora in
+cui si terrà la visita.
+
+E’ possibile inoltre inviare ai lavoratori una e-mail di convocazione, dal menù Utilità. Il template di tale
+convocazione può essere predisposto dal pannello amministrazione Amministrazione → Email
+
+8.2 AGENDA
+In questa sezione è possibile visualizzare e gestire l’agenda del medico e definire la sua disponibilità per
+eseguire le visite mediche.
+
+Visualizzazione agenda
+Nella parte superiore della finestra è possibile selezionare l’intervallo temporale da visualizzare e il medico,
+premendo il tasto Esamina apparirà la lista delle visite, raggruppate per giorno, programmate per il medico
+selezionato.
+
+Sopra il calendario sono riportate alcune statistiche relative all’interrogazione effettuata che indicano i giorni
+presenti tra la data inizio e fine selezionate, il numero di visite presenti e la percentuale di occupazione.
+
+Con il tasto è possibile visualizzare il dettaglio degli appuntamenti di quel giorno
+
+Da qui è possibile cancellare l’appuntamento programmato con il tasto oppure modificare
+
+l’appuntamento con il tasto , per la creazione di una nuova visita cliccare il tasto.
+
+Inoltre con il menù Stampa è possibile stampare la lista degli appuntamenti programmati.
+
+o il foglio firme per eventualmente registrare la presenza dei lavoratori alla visita medica
+
+Definizione disponibilità medico
+Per definire la disponibilità del medico (giornate e orari in cui il medico può fare le visite) occorre premere il
+
+tasto nella parte inferiore a destra della finestra delle agende. Viene aperta una
+finestra dove è possibile indicare le giornate e le ore di disponibilità del medico:
+
+Nell’esempio della figura il Dott. Rossi dal primo al 30 di novembre dà disponibilità il lunedì per 4 ore mercoledì
+e venerdì per 8 ore. Tale disponibilità viene visualizzata nel calendario in basso alla finestra principale con il
+colore verde. Le giornate possono essere visualizzate in giallo quando ci sono delle visite programmate per la
+giornata stessa:
+
+Facendo tasto destro sulla giornata è possibile inserire delle note o vedere il dettaglio degli appuntamenti
+programmati.
+
+8.3 SCADENZARIO ATTIVITÀ..............................................................................................................................
+Lo scadenzario delle attività permette di visualizzare la scadenza delle nomine dei medici, dei sopralluoghi e
+delle altre attività caricate e definite nel pannello Attività di Gestione aziende. La funzione recupera gli eventi
+che scadono entro il numero di giorni indicato oppure già scadute. Il tipo di evento visualizzato dipende dal
+filtro Tipo attività impostato affianco ai giorni di preavviso.
+
+Per gli incarichi, la ricerca avviene sulla base del campo Data ultima esecuzione inserito nel pannello Attività di
+Gestione aziende per il tipo attività Incarico , se il campo non viene valorizzato la nomina viene visualizzata in
+ogni caso.
+
+Il calcolo dei sopralluoghi in scadenza viene fatto a partire dalla data dell’ultimo sopralluogo e alla periodicità
+dello stesso. Se non ci sono sopralluoghi memorizzati in CartSan viene considerata la data specificata nel
+campo Data ultima esecuzione del pannello Attività di Gestione aziende relativo al il tipo attività Sopralluogo.
+
+Una volta visualizzata la lista, è possibile esportarla in Excel con l’apposito tasto in basso.
+
+9. BACKUP E RIPRISTINO
+La sezione backup e ripristino permette di creare i file di backup del database in maniera automatica o
+manuale.
+
+ATTENZIONE: i documenti presenti nell’archivio interno (cartellina gialla affianco alle aziende e ai
+dipendenti) non vengono gestiti da questa procedura e andranno eventualmente copiati a parte.
+
+Per impostare il salvataggio automatico, bisogna selezionare il cerchio affianco all’etichetta Backup automatico
+e quindi impostare un percorso dove CartSan andrà a salvare la copia di backup del database. Il backup
+automatico viene eseguito tutti i giorni la prima volta che viene aperto CartSan.
+
+Per eseguire il backup manuale, bisogna selezionare il cerchio affianco all’etichetta Backup/ripristino manuale e
+
+poi premere il tasto con la freccia verso l’alto in blu , viene richiesto dove salvare il file, premendo il
+tasto Salva verrà creato il backup del database.
+
+Per caricare un salvataggio nel sistema e sostituire il database corrente, occorre premere il tasto con la freccia
+
+verso il basso verde , viene richiesto il file da ripristinare, premendo il tasto apri il database corrente
+sarà sostituito con i dati del file letto per cui i dati correnti saranno persi! Si consiglia di eseguire un backup
+prima di eseguire la procedura di ripristino.
+
+1 0. AMMINISTRAZIONE
+In questa sezione è possibile gestire alcuni parametri e configurazioni dell’intero sistema, compreso il logo che
+viene apposto su tutti i documenti intestati. La sezione è divisa in varie parti spiegate nei paragrafi successivi.
+
+10.1 UTENTI
+Ogni utente di CartSan ha la possibilità di modificare i propri dati o la password, selezionando il suo utente e
+premendo in basso il tasto Modifica dati (se abilitato) o Modifica password. L’utente segreteria non può
+modificare i dati, ma facendo click su INFERMIERI ha la possibilità di aggiungere utenze infermiere, per eseguire
+accertamenti, premendo sul tasto in basso Aggiungi utente.
+
+Facendo click su Modifica dati è possibile impostare il proprio indirizio mail sul quale ricevere la password
+provvisoria dopo aver effettuato il reset dalla schermata di login (vedi paragrafo 1).
+
+10.2 DOCUMENTI
+È possibile variare alcuni parametri dei documenti prodotti e il logo che viene apposto.
+
+Per il cambiamento del logo, selezionare prima il fattore di aspetto del logo Quadrato o Rettangolare (rapporto
+1:2) e poi premere il tasto Cambia logo, viene richiesto di caricare un file in formato jpeg o png. Il nuovo logo
+viene visualizzato affianco. Se il logo risulta troppo schiacciato, si consiglia di aprirlo con un programma per la
+modifica delle immagini (es: Paint per windows) e aumentare lo spazio sopra o lateralmente a seconda che
+risulti schiacciato orizzontalmente o verticalmente.
+
+Per variare i vari parametri dei documenti è invece sufficiente premere sul tasto Configura affianco ad ogni
+sezione e quindi spuntare o togliere la spunta sulle varie opzioni.
+
+La voce Generatore documenti mancanti ha lo scopo di creare automaticamente il pdf dei giudizi e le cartelle
+sanitarie a partire dai dati memorizzati nelle visite. Occorre indicare la data dalla quale far partire la
+generazione dei documenti (data visita) e premere il tasto Avvia.
+Nella sezione Dati archivio documentale è possibile definire alcuni parametri per la generazione automatico dei
+giudizi di idoneità e della cartella sanitaria e per variare il comportamento della copia dei file nell’archivio
+documentale, di seguito i dettagli:
+
+Salvataggio automatico documenti : tutti i documenti prodotti in anteprima vengono salvati
+automaticamente in formato pdf all’interno della cartella del lavoratore o dell'azienda a seconda
+del caso
+Salvataggio automatico cartella : la cartella sanitaria viene salvata automaticamente quando si
+completa la visita e si preme il tasto Salva.
+Salvataggio automatico giudizi : i giudizi di idoneità per il lavoratore e per il datore di lavoro
+vengono automaticamente salvati quando si completa la visita e si preme il tasto Salva.
+Abilita copia file archivio : se l’opzione è selezionata, quando si carica un file nell’archivio di CartSan,
+questo non viene rimosso dalla posizione sorgente, se l’opzione non è selezionato il file viene
+spostato nell’archivio CartSan (quindi viene cancellato dalla posizione sorgente)
+Abilita localizzazione cartella : se l’opzione è selezionata, all’interno dell’archivio, tra le varie opzioni
+apri, stampa, ecc... appare anche il bottone localizza che apre l’archivio di CartSan in Esplora
+Risorse di Windows oppure nel Finder del MacOS.
+Nella sezione Configurazione Footer Documenti è possibile definire due righe che verranno apposte in fondo ai
+documenti che prevedono la firma del medico e/o del lavoratore.
+
+10.3 ACCERTAMENTI
+Permette di personalizzare i nomi degli accertamenti e definire i gruppi di esame per un inserimento più rapido
+nelle visite e nel protocollo sanitario.
+
+Nella sezione Configurazione pannelli , è possibile variare l’insieme degli esami standard ematochimici, del
+panel tiroideo e del drug test, definendo sia il nome che la tipologia di esame da inserire.
+Occorre premere su Configura del pannello scelto, inserire il nome preferito per il gruppo di esami e quindi
+spuntare gli esami che si vogliono includere. Al termine dell’operazione premere il tasto Salva.
+
+Nella sezione Configurazione accertamenti, è possibile modificare il nome degli accertamenti presenti in visita e
+
+nel protocollo sanitario facendo click affianco al nome da variare sul tasto con la matita.
+
+Nella lista vengono visualizzati tutti gli esami, se l’esame è stato utilizzato non sarà possibile modificare il suo
+nome.
+
+10.4 STRUMENTI
+Dà la possibilità di configurare il software degli strumenti Oscilla, EM600M e EM800M (audiometro), Medikro
+(spirometro) e selezionare il tipo di lettore utilizzato per il DrugTest (SmartLab o MiniDrugScan)
+
+Se si dispone dell’audiometro Oscilla e il software Audioconsole è consigliabile premere il relativo tasto
+Configura per permettere a CartSan di inviare l’anagrafica del dipendente e ricevere i dati del referto al
+momento della visita.
+La configurazione CardioCalm permette di impostare i parametri per l’invio dell’ECG al centro di analisi
+cardiologico.
+
+Se si dispone di uno spirometro Medikro è consigliabile premere il relativo tasto Configura per permettere a
+CartSan di inviare l’anagrafica del dipendente e ricevere i dati del referto al momento della visita.
+
+10.5 EMAIL
+In questa sezione è possibile impostare la mail che si desidera utilizzare per l’invio dei giudizi di idoneità e altro
+
+dalla sezione Analisi e Relazioni (tasti in basso con il simbolo della lettera ).
+
+Nota:
+Per i sistemi client/server, la configurazione è unica per tutte le postazioni.
+
+In E-mail occorre inserire l’indirizzo di posta mittente (che invierà i giudizi)
+Il campo user è da utilizzare se il server di posta ne richiede uno diverso dall’indirizzo E-mail
+mittente
+Il campo password è la password per accedere alla casella di posta
+Nel campo Server SMTP e porta va indicato il server di posta che ospita l’E-mail mittente e il valore
+della porta di accesso (fare riferimento al fornitore del servizio di casella di posta per questa
+impostazione)
+Il campo reply-to è da valorizzare se si vuole impostare un indirizzo per la risposta diverso da quello
+mittente
+Il campo CC server per inviare il messaggio anche a un’altra casella di posta
+Il flag Invia copia e-mail al mittente ha lo scopo di inviare sempre una mail anche all’indirizzo di
+mittente in modo da avere una ricevuta degli invii effettuati da Cartsan
+ATTENZIONE: CartSan non memorizza i messaggi di posta inviati.
+Nella sezione template Giudizi all’azienda è possibile specificare un Oggetto e un Messaggio standard che sarà
+proposto in sede di invio giudizi al datore di lavoro nella sezione Analisi e relazioni , in modo da evitare di
+scrivere ripetutamente lo stesso testo. Questo testo è in ogni caso modificabile prima di inviare i giudizi.
+Allo stesso modo è possibile impostare dei template standard per la convocazione lavoratore e per la
+convocazione azienda.
+
+Una volta caricati i dati premere il tasto Salva per memorizzare le impostazioni.
+
+10.6 ASPETTO
+Questa sezione permette di personalizzare come appaiono le finestre di CartSan, inoltre è possibile scegliere le
+dimensioni dei caratteri durante l’utilizzo di CartSan.
+
+10.7 CONFIGURAZIONE VISITA
+Questa sezione permette di personalizzare alcune impostazioni della visita medica, definendo quali valori di
+default devono essere riportati nelle finestre e quali valori devono essere inseriti nelle caselle di testo delle
+anamnesi, note, conclusioni diagnostiche ecc., nel caso di nuova visita. Permette inoltre di scegliere se far
+comparire in fondo ai giudizi la firma del lavoratore e/o del datore di lavoratore e se far comparire il tasto per
+apporre la firma grafometrica sui vari documenti.
+
+In particolare:
+
+nella sezione Esame obiettivo è possibile definire i default per i vari valori visualizzati in sede di visita.
+Nella sezione Giudizio permette di indicare i default per la modalità di invio del giudizio, se mostrare i
+campi firma del lavoratore e/o datore e se valorizzare la data del giudizio e della prossima visita e del
+giudizio in automatico.
+Nella sezione Firma grafometrica è possibile indicare se far apparire il tasto Firma documenti nella
+scheda delle conclusioni della visita in modo da firmare in sequenza i documenti spuntati di seguito
+(Visita – cartella sanitaria, Giudizio datore e Giudizio lavoratore)
+Nella sezione Invio documenti via e-mail permette di mostrare la liberatoria per l’invio della cartella
+sanitaria all’indirizzo di mail del lavoratore, in modo che quest’ultimo la possa firmare e dare il
+consenso.
+Nella sezione Anamnesi è possibile specificare delle frasi standard da visualizzare per le visite nuove e
+senza una storia pregressa.
+10.8 PRESCRIZIONI E LIMITAZIONI
+Questa sezione permette di gestire l’elenco delle prescrizioni e limitazioni che appare in sede di visita sotto il
+giudizio. È possibile rimuovere una voce premendo il tasto con la X oppure modificarla premendo il tasto con la
+matita. Per aggiungere una voce occorre premere il tasto in fondo con il simbolo +
+
+Quando si modifica o si aggiunge una voce appare una finestra come la seguente:
+
+Il campo Descrizione breve è quello che viene visualizzato nell’elenco in CartSan, il campo Descrizione estesa è
+quello che viene stampato sul giudizio o cartella, per cui si consiglia di valorizzarli sempre entrambi
+eventualmente copiando e incollando lo stesso testo.
+
+Sotto è possibile spuntare il rischio o i rischi relativi alla prescrizione o limitazione che si sta caricando. Questo
+valore è utile per la compilazione automatica dell’allegato 3B.
+
+10.9 PATOLOGIE
+Nella sezione Patologie è possibile inserire una lista di patologie comuni da associare ai singoli lavoratori in fase
+di visita (vedi paragrafo 4.6).
+Facendo click sul tasto “Aggiungi” in basso a destra si apre la seguente finestra nella quale viene chiesto di
+assegnare la descrizione della patologia ed eventuali note.
+
+10.10 NOTE
+10.11 CHECKLIST
+Nella sezione Checklist è possibile creare un elenco di operazioni necessarie per eseguire una determinata
+procedura.
+Facendo click sul tasto “Aggiungi” in basso a destra si apre la seguente finestra nella quale viene chiesto il
+nome da assegnare alla checklist:
+
+Facendo click su “OK” si apre la finestra tramite la quale si possono aggiungere le farie voci della checklist.
+
+Dopo aver selezionato la checklist (1) si seleziona il tasto + (2) e si inserisce la descrizione della voce da
+aggiungere.
+
+10.12 SCADENZARIO
+Questa sezione permette di gestire le attività che possono essere assegnate ad ogni azienda per ricordarne la
+scadenza. I due campi precaricati sono Incarico e Sopralluogo , vedere la sezione 2.3 per maggiori informazioni.
+
+APPENDICE A – CARICAMENTO AZIENDE DA FOGLIO EXCEL
+Come indicato nel paragrafo Errore. L'origine riferimento non è stata trovata. nel menù aziende è possibile
+importare i dati da foglio Excel. Il modello di foglio Excel si trova nella cartella di installazione di CartSan ed è
+possibile individuarla facendo tasto destro con il mouse sull’icona di CartSan sul desktop e selezionando Apri
+percorso file , verrà aperta una finestra di Esplora risorse all’interno della quale occorre entrare nella cartella
+modelli:
+
+Facendo doppio click sul file ANAGRAFICA_AZIENDA.csv viene mostrato un foglio Excel vuoto con una
+intestazione. Nell’intestazione sono riportati in ordine i campi che possono essere caricati in CartSan.
+
+È necessario che il campo DenominazioneSedeLocale sia sempre valorizzato; il campo Tipologia può assumere
+solo due valori: 1 = azienda privata, 2 = azienda pubblica.
+Le date vanno specificate nel formato GG/MM/AAAA cioè due caratteri per il giorno, barra, due caratteri per il
+mese, barra, quattro caratteri per l’anno per cui il 21 giugno del 2018 andrà indicato come 21/06/2018.
+
+Nel foglio Excel compilato occorre che venga lasciata la prima riga con i nomi delle colonne e non bisogna
+rimuovere le colonne che non si vogliono compilare, ma lasciarle bianche. Di seguito un esempio di foglio Excel
+compilato:
+
+Una volta compilato il foglio Excel occorre salvarlo in formato CSV per cui consigliamo di fare S alva con nome e
+poi scegliere l’opzione come di seguito indicato:
+
+Per caricare il foglio Excel così creato occorre andare in Gestione aziende, selezionare il menu Aziende e quindi
+selezionare Importa azienda -> Da file Excel come indicato nella figura seguente:
+
+Viene richiesta la selezione del file, dopodiché andrà indicato sotto quale medico andranno inserite le aziende:
+
+Premendo il tasto OK le aziende presenti nel file verranno importate e assegnate al medico scelto.
+
+Nota:
+Se le aziende vanno assegnate a medici diversi conviene fare fogli Excel che contengono solo le aziende
+assegnate ai medici e quindi importarli.
+
+APPENDICE B – CARICAMENTO DIPENDENTI DA FOGLIO EXCEL
+Per importare i lavoratori da foglio Excel occorre seguire il tracciato indicato nel modello che si trova nella
+cartella di installazione di CartSan ed è possibile individuarla facendo tasto destro con il mouse sull’icona di
+CartSan sul desktop e selezionando Apri percorso file , verrà aperta una finestra di Esplora risorse all’interno
+della quale occorre entrare nella cartella modelli:
+
+Facendo doppio click sul file ANAGRAFICA_LAVORATORI.csv viene mostrato un foglio Excel vuoto con una
+intestazione. Nell’intestazione sono riportati in ordine i campi che possono essere caricati in CartSan.
+
+Occorre creare un foglio Excel per ogni azienda in quanto l’importazione può essere eseguita una volta scelta
+l’azienda a cui assegnare i lavoratori.
+
+I dati minimi obbligatori sono Cognome, Nome, Data di nascita e Sesso.
+Il campo sesso va specificato con M (m maiuscola) = Maschio, F (f maiuscola) = Femmina.
+Le date vanno specificate nel formato GG/MM/AAAA cioè due caratteri per il giorno, barra, due caratteri per il
+mese, barra, quattro caratteri per l’anno per cui il 21 giugno del 20 18
+andrà indicato come 21/06/2018.
+Il campo Periodicità va indicato in numero di mesi per cui la periodicità annuale andrà indicata con il numero
+
+Nel foglio Excel compilato occorre che venga lasciata la prima riga con i nomi delle colonne e non bisogna
+rimuovere le colonne che non si vogliono compilare, ma lasciarle bianche. Di seguito un esempio di foglio Excel
+compilato:
+
+È possibile importare il foglio Excel più volte, CartSan riconoscerà i lavoratori seguendo questi criteri:
+
+Se è presente il codice fiscale sia nel foglio e Excel che su CartSan viene usato come chiave per
+individuare il lavoratore e i suoi dati vengono aggiornati se i codici fiscali sono uguali altrimenti viene
+inserito un nuovo lavoratore
+Durante l’aggiornamento di un lavoratore se la mansione nel foglio Excel è presente su CartSan il
+campo della mansione verrà aggiornato, se la mansione non è presente su CartSan il campo della
+mansione rimane invariato, in questo caso viene aggiunto una nota per il lavoratore con il nome della
+mansione da assegnare.
+Durante l’aggiornamento di un lavoratore i campi vuoti nel file Excel non saranno presi in
+considerazione lasciando invariati questi dati del lavoratore.
+Durante l’inserimento di un lavoratore se la mansione nel foglio Excel è presente su CartSan li viene
+assegnato la mansione, se la mansione non è presente su CartSan il lavoratore viene inserito
+comunque con questa mansione e con una nota per il lavoratore con il nome della mansione da
+assegnare.
+Una volta compilato il foglio Excel occorre salvarlo in formato CSV per cui consigliamo di fare S alva con nome e
+poi scegliere l’opzione come di seguito indicato:
+
+Per caricare il foglio Excel così creato occorre andare in Gestione lavoratori, selezionare l’azienda in cui caricare
+i lavoratori, selezionare il menu Lavoratori e quindi selezionare Importa lavoratori - > Da file CSV o Excel come
+indicato nella figura seguente:
+
+Viene richiesto di caricare il file da importare, dopodiché l’importazione parte immediatamente.
